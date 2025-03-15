@@ -24,3 +24,12 @@ Stack trace:
 #2 [internal function]: IC_EPC_Tracking->fatal()
 #3 {main}
   thrown in /workspaces/UX221Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
+[15-Mar-2025 02:46:52 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX221Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/extensions.php on line 811
+[15-Mar-2025 02:46:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_products_count() in /workspaces/UX221Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:117
+Stack trace:
+#0 /workspaces/UX221Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#1 /workspaces/UX221Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#2 [internal function]: IC_EPC_Tracking->fatal()
+#3 {main}
+  thrown in /workspaces/UX221Assignment3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
+[15-Mar-2025 02:59:29 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/UX221Assignment3/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
