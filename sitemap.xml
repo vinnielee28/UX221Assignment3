@@ -22,12 +22,27 @@
     </url>
     <url>
         <loc>
-            http://localhost:8000/products/sample-product-page/
+            http://localhost:8000/products/capybara-nightlight/
         </loc>
     </url>
     <url>
         <loc>
-            http://localhost:8000/products/capybara-nightlight/
+            http://localhost:8000/products/bunny-nightlight/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/multicoloured-cat-nightlights/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/pear-nightlight/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/cat-nightlight/
         </loc>
     </url>
     <url>
