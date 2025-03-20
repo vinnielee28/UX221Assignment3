@@ -6,6 +6,8 @@ Template:       emart-shop
 
 (optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
 */
-#navbar {
-    color: #46ebe8;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+a.site-title{
+    color: #f684ff;
+    font-family: "Abril Fatface", serif;
 }
